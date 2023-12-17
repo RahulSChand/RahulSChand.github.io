@@ -3,13 +3,13 @@
     filter: grayscale(20%);
 }
 
-a:hover {
-    /* font-weight: 400; */
+/* a:hover {
+    font-weight: 400;
     text-decoration: none;
     transition-duration: 0.3s;
     transition-timing-function: linear;
-    /* color: #444; */
-}
+    color: #444;
+} */
 
 
 .noter {
@@ -37,12 +37,16 @@ a:hover {
     border-left: 1px solid #ddd;
 }
 
-.menulink:hover {
-    color: #111;
+.my-hover-class {
+    font-size: large;
+}
+
+.my-hover-class:hover {
+    font-size: larger;
 }
 
 .profilepic {
-    width: 150px;
+    width: 200px;
     border-radius: 40%;
     filter: grayscale(30%);
 }

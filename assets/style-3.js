@@ -32,18 +32,18 @@ const menudecoration = "none";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor;
-const headerfontsize = "18pt";
-const headerdecoration = "none";
+const headercolor = highlightcolor;
+const headerfontsize = "15pt";
+const headerdecoration = "underline";
 const namecolor = highlightcolor;
-const namefontsize = "23pt";
+const namefontsize = "20pt";
 
 
 // Publication properties
 const ptitlecolor = accentcolor;
-const ptitlefontsize = bodyfontsize;
+const ptitlefontsize = "14pt";
 const ptitleweight = bodyfontweight;
-const ptitledecoration = "none";
+const ptitledecoration = "";
 const ptitlestyle = "normal";
 
 const authorcolor = accentcolor;
@@ -85,7 +85,7 @@ $("body").css("font-size", bodyfontsize);
 $("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
-$("a").css("text-decoration", adecoration);
+// $("a").css("text-decoration", adecoration);
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
@@ -97,7 +97,7 @@ $(".header").css("text-decoration", headerdecoration);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 
-$(".papertitle").css("color", ptitlecolor);
+$(".papertitle").css("color", highlightcolor);
 $(".papertitle").css("font-size", ptitlefontsize);
 $(".papertitle").css("font-weight", ptitleweight);
 $(".papertitle").css("text-decoration", ptitledecoration);
