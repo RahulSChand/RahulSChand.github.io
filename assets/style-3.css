@@ -29,8 +29,9 @@
 }
 
 .conf {
+    font-weight: bold;
     display: inline-block;
-    padding-bottom: 4px;
+    
 }
 
 .paper {
